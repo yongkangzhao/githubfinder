@@ -14,11 +14,11 @@ class UI {
                     <div class="col-md-3">
                         <img class="img-fluid mb-2" src ="${user.avatar_url}" />
                         <a href="${user.html_url}" target="_blank" class="btn btn-primary btn-block mb-1">View Profile</a>
-                        <div>
-                            <span class="badge badge-primary col-md-11 mr-2 ml-2">Public Repos: ${user.public_repos}</span>
-                            <span class="badge badge-primary col-md-11 mr-2 ml-2">Public Gists: ${user.public_gists}</span>
-                            <span class="badge badge-primary col-md-11 mr-2 ml-2">Public Followers: ${user.followers}</span>
-                            <span class="badge badge-primary col-md-11 mr-2 ml-2">Public Following: ${user.following}</span>
+                        <div class="col-md-12"> 
+                            <span class="badge badge-primary col-md-12">Public Repos: ${user.public_repos}</span>
+                            <span class="badge badge-primary col-md-12">Public Gists: ${user.public_gists}</span>
+                            <span class="badge badge-primary col-md-12">Public Followers: ${user.followers}</span>
+                            <span class="badge badge-primary col-md-12">Public Following: ${user.following}</span>
                         </div>
                     </div>
                     <div class="col-md-9">
