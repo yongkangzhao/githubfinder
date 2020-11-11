@@ -54,6 +54,8 @@ class UI {
                         <span class="badge badge-primary col-md-3">Stars: ${repo.stargazers_count}</span>
                         <span class="badge badge-primary col-md-3">Watchers: ${repo.watchers_count}</span>
                         <span class="badge badge-primary col-md-3">Forks: ${repo.forks_count}</span>
+                        ${(repo.fork) ? '<span class="badge badge-warning col-md-2">Fork</span>' : '<span class="badge badge-primary col-md-2">Source</span>'}
+                        
                     </span>
                     <div>${(date.getMonth()+1) + '/' + date.getDate() + '/' + date.getFullYear()}</div>
                 </div>
